@@ -2,9 +2,9 @@ class Person:
     def __init__(self):
         self.attributes = {"name": "John", "age": 30}
 
-    def __getattr__(self, name):
-        if name in self.attributes:
-            return self.attributes[name]
+    def __getattr__(self, atr):
+        if atr in self.attributes:
+            return self.attributes[atr]
         else:
             return "Атрибут не найден"
 
