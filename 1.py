@@ -5,6 +5,6 @@ def some_func(x, y):
     elif x == y:
         print('Это же одни и те же числа! понятно, что будет 1!  ')
     else:
-        print(x / y)
+        print('Результат деления:', x/y)
 
-some_func(5, 0)
+some_func(0, 5)
