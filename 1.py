@@ -5,4 +5,5 @@ def some_func(x, y):
     else:
         print(x / y)
 
+"""тут просто комментарий, для ветки test_branch_2"""
 some_func(5, 0)
